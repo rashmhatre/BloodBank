@@ -59,6 +59,20 @@ body{
 		line-height:0.3;
 		background:orangered;
 	}
+	
+	#about p{
+		text-align:justify;
+	}
+	
+	#blog .row{
+		left-margin:3%;
+	}
+	
+	#service .card{
+		margin: 0 auto;
+		float:none;
+		margin-bottom:3%;
+	}
 }
 
 @media only screen and (max-width:1000px){
@@ -68,6 +82,7 @@ body{
 		line-height:0.3;
 		background:orangered;
 	}
+	
 }
 
 /*Blogs............................*/
@@ -129,11 +144,6 @@ body{
 	.card{
 		margin-bottom:2%;	
 	}
-
-@media only screen and (max-width:760px){
-	.row{
-		margin-right:3%;
-	}
-}
+	
 
 /*About Us page Ends........................................*/
