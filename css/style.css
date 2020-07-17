@@ -6,8 +6,8 @@ body{
 .service-us{
     width: 100%;
     height: 70vh;
-	margin-bottom:3%;
-    background: url('../images/blood-drip.jpg') center no-repeat;
+    margin-bottom:3%;
+    background: url('../images/drip.jpg') center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
