@@ -1,6 +1,32 @@
 body{
 	font-family:poppins;
 }
+
+/*Services page starts...........................................*/
+.service-us{
+    width: 100%;
+    height: 70vh;
+	margin-bottom:3%;
+    background: url('../images/blood-victim.webp') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+}
+
+.inner{
+	overflow:hidden;
+}
+
+.inner img{
+	transition: all 1.5s ease;
+}
+
+.inner:hover img{
+	transform:scale(1.5);
+}
+/*Services page ends...........................................*/
+
 /*Home Page Starts...........................................*/
 /*Slider.....................................*/
  .carousel {
@@ -69,6 +95,18 @@ body{
 	}
 	
 	#service .card{
+		margin: 0 auto;
+		float:none;
+		margin-bottom:3%;
+	}
+	
+	#testimonial .card{
+		margin: 0 auto;
+		float:none;
+		margin-bottom:3%;
+	}
+	
+	#tservice .card{
 		margin: 0 auto;
 		float:none;
 		margin-bottom:3%;
@@ -144,9 +182,11 @@ body{
 	.card{
 		margin-bottom:2%;	
 	}
+	
 	#about h2{
 		text-align:center;
 	}
-	
-
 /*About Us page Ends........................................*/
+
+
+
