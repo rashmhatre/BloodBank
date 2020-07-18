@@ -2,17 +2,49 @@ body{
 	font-family:poppins;
 }
 
+/*Gallery Page Starts..................................................*/
+.gallery-us{
+    width: 100%;
+    height: 50vh;
+    margin-bottom:3%;
+    background: url('../images/medica.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+}
+
+#gallery-id .gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+#gallery-id .gallery:hover{
+	border: 1px solid #777;
+}
+
+#gallery-id .gallery img{
+	width: 100%;
+	height: auto;
+}
+
+/*Gallery Page Ends......................................................*/
+
+
 /*Services page starts...........................................*/
 .service-us{
     width: 100%;
     height: 70vh;
-    margin-bottom:3%;
+	margin-bottom:3%;
     background: url('../images/blood-drip.jpg') center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     text-align: center;    
 }
+/*Services page Ends...........................................*/
 
 .inner{
 	overflow:hidden;
@@ -187,6 +219,7 @@ body{
 		text-align:center;
 	}
 /*About Us page Ends........................................*/
+
 
 
 
